@@ -1,0 +1,17 @@
+tr{
+    width: 150px;
+    height: 150px;
+    background: chartreuse;
+}
+
+#one{
+    border-right: 5px solid red;
+}
+
+td{
+    width: 150px;
+    height: 150px;
+    background: white;
+    border: 10px solid red;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="ThankYou Page.html">
+        <!--name:<input type="text" name="Name" >-->
+        <h1>Registeration form</h1>
+        <h2>All fields are Mandatory</h2>
+        <label for="name">Name : </label>
+        <input id="name" type="text" name="username" value="" placeholder="enter name" required><br>
+        <br><label for="em">Email : </label>
+        <input id="em" type="email" name="Email" value="" placeholder="enter email" required><br>        
+        <br><label for="age">Age : </label>
+        <input id="age" type="Age" name="Age" value="" placeholder="enter age" required><br> 
+        
+        <h3>Are you intrested in Dating</h3>
+        <label for="yes">Yes</label>
+        <input type="radio" name="dating" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="radio" name="dating" id="no" value="no">
+        <br>
+        <h3>You Expectations like</h3>
+        <select name="expections">
+            <option value="katrina">katrina kaif</option>
+            <option value="samantha">Samantha</option>
+            <option value="nayantara">Nayatara</option>
+            <option value="miamalkova">Mia Malkova</option>
+        </select><br>
+
+        <h3>Ho wmany marriages you want</h3>
+        <select name="marraige_num">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+        
+        <h3>Are you heavy Alcholaic</h3>
+            <input type="checkbox" name="Alhocalic" value="yes">yes
+            <input type="checkbox" name="Alhocalic" value="no">no
+            <input type="checkbox" name="Alhocalic" value="occasional">occasional
+        <br>
+        <h3>YOur preference and extra Information</h3>
+        <textarea name="extraInfo" cols="30" rows="10"></textarea>
+
+        <br><br><input  type="submit" name="Regsiter" value="Register">
+    </form>
+
+</body>
+</html>

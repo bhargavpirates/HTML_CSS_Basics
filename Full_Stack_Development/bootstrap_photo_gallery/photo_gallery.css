@@ -1,0 +1,12 @@
+.navbar{
+    background: darkseagreen;
+    color: red;
+}
+
+.navbar a{
+    color:black;
+}
+.thumbnail img {
+    height:250px;
+    width:100%;
+}
